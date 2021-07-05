@@ -70,14 +70,25 @@ padding-left: 5%;
 .color-orange{
     color: orange;
 }
-.third-half-width1{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-padding-left: 2%;
-box-shadow: 10px 10px 40px gray;
-}
+    .third-half-width1{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 2%;
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 10px;
+        border-left: 10px solid orangered;
+        }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position:left;
+    background-position:left;}
+    #hero-web{
+        border-left: 10px solid;
+        border-image: linear-gradient(blue, cyan);
+        
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+    }
