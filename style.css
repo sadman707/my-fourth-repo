@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
     color: orange;
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width1{
     width: 50%;
@@ -63,3 +67,18 @@ padding-left: 5%;
     background-repeat: no-repeat;
     background-position: right;
 }
+.color-orange{
+    color: orange;
+}
+.third-half-width1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+padding-left: 2%;
+box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
